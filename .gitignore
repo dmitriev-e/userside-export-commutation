@@ -1,0 +1,7 @@
+.cursor/
+.vscode/
+.venv/
+.env
+.cursorignore
+devices_data.json
+commutation_export_*.xlsx
