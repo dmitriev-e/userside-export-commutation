@@ -522,6 +522,8 @@ def main():
                         device_type = commutation.get('object_type')
 
                         # Check device type, if switch, get device id from commutation data
+                        # Works only with device_type == 'switch'
+                        
                         if device_type == 'switch':
                             device_id = commutation.get('object_id')
                         else:
